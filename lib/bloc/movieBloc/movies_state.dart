@@ -17,7 +17,7 @@ class MoviesLoadingState extends MoviesState {
 class MoviesLoadedState extends MoviesState {
   final List<Results> movies;
   MoviesLoadedState({@required this.movies});
-  get movieList => movies;
+  get g => movies;
   @override
   List<Object> get props => null;
 }
